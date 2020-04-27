@@ -55,8 +55,6 @@ div#header-container {
 
 div#header-content {
   margin-top: 70px;
-  /* width: 50%; */
-  /* justify-content: center; */
 }
 
 div#header-content h1 {
@@ -566,4 +564,177 @@ footer div#block-verify a {
 
 footer div#block-verify a:hover {
   background-color: rgba(229, 235, 255, 0.5);
+}
+
+
+
+/* Estilização para dispositivos menores */
+@media screen and (max-width: 768px) {
+  header#top {
+    height: 100vh;
+  }
+
+  div#header-content {
+    margin-top: 500px;
+  }
+  
+  div#header-content h1 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Muli', sans-serif;
+  }
+  
+  div#header-content h1:after {
+   display: none;
+  }
+  
+  div#header-content img {
+    width: 40%;
+    margin-bottom: 15px;
+  }
+  
+  div#header-content p {
+    width: 100%;
+    margin-bottom: -15px;
+  }
+
+  div#header-video {
+    background: url('../assets/print-mobile-2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+  
+  div#header-video video {
+      display: none;
+  }
+
+  /* Seção de vantagens */
+  section#vantagens{
+    padding: 100% 5% 15% 5%;
+  }
+
+  .block-vantagens h2 {
+    width: 100%;
+    font-weight: 700;
+  }
+
+  /* Seção com Cartão Juno */
+  section#card {
+    padding: 5%;
+    background: linear-gradient(rgba(229, 235, 255, .6) 0%, rgba(229, 235, 255, .6) 100%);
+  }
+
+  section#card h2 {
+    margin-top: 100%;
+    width: 100%;
+  }
+
+  section#card img {
+    position: absolute;
+    top: -400px;
+  }
+
+  /* Seção history */
+  .background-history {
+    display: none;
+  }
+
+  section#history p.history-description {
+    margin-top: 25px;
+  }
+
+  p.history-description:after {
+    top: 210px;
+    width: 15%;
+  }
+
+  section#history div.content div {
+    margin-top: 80px;
+  }
+
+  section#history div.content div h3.title-prevencao:after {
+    top: 80px;
+    width: 15%;
+  }
+
+  p.description-prevencao {
+    margin-top: 80px;
+  }
+
+  /* Estilizações dos círculos ao final de cada title */
+  div.circle-economia {
+    top: 235px;
+  }
+
+  div.circle-processos {
+    top: 420px;
+  }
+
+  div.circle-cobrancas {
+    top: 570px;
+  }
+
+  div.circle-prevencao {
+    top: 700px;
+  }
+
+  /* Estilização dos icones ao final da seção */
+  img.logo-marcas {
+    margin-top: 40px;
+    margin-right: 10px;
+  }
+
+
+  /* Seção com dois blocos */
+  .comece-img{
+    display: none;
+  } 
+  section#comece{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+
+  section#comece div.comece-content {
+    left: 0;
+  }
+
+  div.circle-comece {
+    top: 15px;
+    left: 5px;
+  }
+
+  section#comece div.comece-content h2:after {
+    top: 100px;
+    width: 15%;
+  }
+
+  section#comece div.comece-content p {
+    margin-top: 50px;
+  }
+
+  /* Estilizando rodapé da página */
+  footer h2, p {
+    text-align: left;
+  }
+
+  footer input#exampleInputEmail1 {
+    width: 300px;
+  }
+
+  footer h3 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  footer div#block-verify {
+    border-left: none;
+  }
+
+  footer div#block-verify p {
+    margin-top: 50px;
+    margin-bottom: 30px
+  }
 }
