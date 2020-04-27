@@ -574,6 +574,15 @@ footer div#block-verify a:hover {
     height: 100vh;
   }
 
+  header#top nav {
+    background-color: #2831dc;
+    color: white;
+  }
+
+  header nav img#logo-top {
+    width: 25%;
+  }
+
   div#header-content {
     margin-top: 500px;
   }
