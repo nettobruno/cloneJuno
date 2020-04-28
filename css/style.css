@@ -566,6 +566,10 @@ footer div#block-verify a:hover {
   background-color: rgba(229, 235, 255, 0.5);
 }
 
+.spacing-left {
+  margin-left: 30px;
+}
+
 
 
 /* Estilização para dispositivos menores */
@@ -576,7 +580,29 @@ footer div#block-verify a:hover {
 
   header#top nav {
     background-color: #2831dc;
-    color: white;
+  }
+
+  /* Estilização do menu hamburguer */
+  .navbar-dark .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  /* Fim da estilização do menn hamburguer */
+
+  .navbar.navbar-dark.fixed-top.navbar-expand-lg {
+    padding: 10px;
+  }
+
+  .nav-item {
+    margin-bottom: 15px;
+  }
+
+  .spacing-left {
+    margin-left: 0px;
+  }
+
+  .btn-green {
+    text-align: center;
   }
 
   header nav img#logo-top {
@@ -584,7 +610,7 @@ footer div#block-verify a:hover {
   }
 
   div#header-content {
-    margin-top: 500px;
+    margin-top: 600px;
   }
   
   div#header-content h1 {
