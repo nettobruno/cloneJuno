@@ -200,7 +200,7 @@
 
 
 @media screen and (max-width: 768px) {
-  .slick-dots li {
-      display: none;
+  .slick-dots li button:before {
+      top: 120px;
   }
 }
