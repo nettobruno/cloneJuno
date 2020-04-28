@@ -543,7 +543,10 @@ footer ul li a:hover {
 
 footer div#block-verify {
   border-left: 1px solid rgba(255, 255, 255, .2);
+  padding-left: 15px;
 }
+
+
 
 footer div#block-verify p {
   text-align: left;
@@ -774,6 +777,7 @@ footer div#block-verify a:hover {
 
   footer div#block-verify {
     border-left: none;
+    padding: 15px;
   }
 
   footer div#block-verify p {
