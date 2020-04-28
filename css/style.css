@@ -512,6 +512,7 @@ footer p {
 
 footer input#exampleInputEmail1 {
   width: 600px;
+  margin-bottom: 50px;
 }
 
 footer h3 {
@@ -751,11 +752,18 @@ footer div#block-verify a:hover {
   }
 
   /* Estilizando rodapé da página */
+  footer h2 {
+    margin-bottom: 20px;
+  }
   footer h2, p {
     text-align: left;
   }
 
   footer input#exampleInputEmail1 {
+    margin-bottom: -5px;
+  }
+
+  footer input#exampleInputEmail1, .btn-form {
     width: 300px;
   }
 
